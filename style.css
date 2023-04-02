@@ -1,0 +1,77 @@
+th,tr,td{
+    border: 1px solid black;
+}
+/* table simple border  */
+
+/* autoplay video  */
+video{
+    width: 400px;
+    height: 400px;
+}
+
+/* style here  */
+.style{
+    width: 100%;
+    height: 400px;
+    margin: 0 10px;
+    padding: 0 10px;
+    border: 1px solid black;
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.style h2{
+    background-color: rgb(179, 190, 179);
+    color: red;
+
+}
+
+.style p{
+    width: 100px;
+    max-height: 200px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+
+}
+
+/* animation here  */
+/* .animation{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: green;
+    transition: linear 2s;
+}
+
+.animation:hover{
+    background-color: aqua;
+    width: 400px;
+    /* height: 300px; */
+
+/* } */ 
+
+
+/* here another  copied from w3schools */
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+
+  .box{
+    /* background-color: cornflowerblue; */
+    color: white;
+  }
